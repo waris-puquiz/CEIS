@@ -279,8 +279,9 @@ transform: scaleX(1);
 }
 /* poster */
 .poster{
-  height: 80%;
+  height: 80%;  
   border-radius: 25px;
+  float: right;
   /* padding-inline-start: 0%; */
 }
 /* .image-poster{
@@ -288,12 +289,23 @@ transform: scaleX(1);
 } */
 .header{
   font-size:30px;
+  float: left;
 }
 .header-p{
   font-size: 15px;
+  float: left;
 } 
+
 /*  line-2*/
-.diagonal-box {
+#grad{
+  height: 200px;
+  background-image:linear-gradient(to bottom left,#5bd059, #f77bb9); 
+}
+.grad-poster{
+  height: 200px;
+}
+
+/* .diagonal-box {
   padding: 20%;
 	background-color: #F0A4B1;
 	transform: skewY(7deg);
@@ -313,4 +325,4 @@ transform: scaleX(1);
 }
 .text-1{
   font-size: medium;
-}
+} */
