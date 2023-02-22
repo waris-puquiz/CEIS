@@ -298,31 +298,20 @@ transform: scaleX(1);
 
 /*  line-2*/
 #grad{
-  height: 200px;
+  height: auto;
   background-image:linear-gradient(to bottom left,#5bd059, #f77bb9); 
 }
 .grad-poster{
-  height: 200px;
+  height: 300px;
 }
-
-/* .diagonal-box {
-  padding: 20%;
-	background-color: #F0A4B1;
-	transform: skewY(7deg);
+.row .grad{
+  background: rgba(240,78,152, .9);
+  border-radius: 35px 35px 35px 35px;
+  border-collapse: collapse;
+  height:300px;
+  padding: 2px;
 }
-
-.content {
-	max-width: 50em;
-	margin:  auto;
-	transform: skewY(-7deg);
+.text-grad{
+  text-align: justify;
+  font-size: 20px;
 }
-.poster2{ 
-  width: 100%;
-  height: auto;
-}
-.text{
-  font-weight: lighter;
-}
-.text-1{
-  font-size: medium;
-} */
