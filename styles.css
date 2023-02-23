@@ -302,7 +302,7 @@ transform: scaleX(1);
   background-image:linear-gradient(to bottom left,#5bd059, #f77bb9); 
 }
 .grad-poster{
-  height: 450px;
+  height: auto;
 }
 .text-box{
  height: auto;
@@ -311,26 +311,13 @@ transform: scaleX(1);
   height: auto;
 
  }
-/* .row .grad{
-  background: rgba(240,78,152, .9);
-  border-radius: 35px 35px 35px 35px;
-  border-collapse: collapse;
-  height:500px;   
-  padding: 2px;
-}
-.text-grad{
-  text-align: justify;
-  font-size: 20px;
-  
-}
-.text-grad-1{
-  font-size: 20px;
-
-}
-.text-list{
-  font-size: 20px;
-
-}
-u.a{
-  list-style-type: circle;
-} */
+ /* last section */
+ .container-ls{
+  padding: 10px;
+ }
+ /* footer */
+ #footer{
+  height: 200px; 
+  background-color: #92cd8d;
+ }
+ 
